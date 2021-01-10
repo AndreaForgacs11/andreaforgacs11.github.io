@@ -32,12 +32,18 @@ h2{
     text-align: center;
     color: forestgreen;
     size: 2em;
-    border-bottom: darkslategray;
+    border-bottom-color: darkslategray;
 }
 
 main a:hover{
     font-weight: bolder;
-    color-adjust: seagreen;
+}
+
+footer{
+    text-align: center;
+    background-color: seagreen;
+    padding: 1em;
+
 }
 
 
