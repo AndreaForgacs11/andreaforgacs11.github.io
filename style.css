@@ -1,7 +1,30 @@
-h1 {
+body{
+    margin: 0 auto;
+    width: 750px;
+    background-color: honeydew;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+
+header{
+    background-color: honeydew;
+    padding: 1em;
+
+}
+
+h1{
     text-align: center;
-    background-color: burlywood;
     color: midnightblue;
     size: 2em;
 }
+
+h2{
+    text-align: center;
+    color: forestgreen;
+    size: 2em;
+}
+
+
 
