@@ -18,12 +18,13 @@ header{
     border: 5px;
     border-style: inset;
     border-color: seagreen;
+    margin-bottom: 2em;
 }
 
 h1{
     text-align: center;
     color: midnightblue;
-    size: 2em;
+    size: 4em;
 }
 
 h2{
