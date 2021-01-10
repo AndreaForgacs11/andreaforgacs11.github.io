@@ -29,6 +29,10 @@ h1{
     margin-top: -75px;
 }
 
+main{
+    padding-bottom: 10px;
+}
+
 h2{
     text-align: center;
     color: forestgreen;
