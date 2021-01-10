@@ -7,11 +7,17 @@ body{
 
 }
 
-
 header{
-    background-color: honeydew;
+    background-color: seagreen;
     padding: 1em;
 
+}
+
+#picture{
+    float: right;
+    border: 5px;
+    border-style: inset;
+    border-color: seagreen;
 }
 
 h1{
