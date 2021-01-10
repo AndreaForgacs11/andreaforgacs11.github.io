@@ -13,18 +13,19 @@ header{
 
 }
 
-#picture{
-    float: right;
-    border: 5px;
-    border-style: inset;
-    border-color: seagreen;
-    margin-bottom: 2em;
-}
-
 h1{
     text-align: center;
     color: midnightblue;
     size: 4em;
+}
+
+#picture{
+    width: 150px;
+    float: right;
+    border: 5px;
+    border-style: inset;
+    border-color: darkslategray;
+    margin-bottom: 4em;
 }
 
 h2{
@@ -32,6 +33,13 @@ h2{
     color: forestgreen;
     size: 2em;
 }
+
+main a:hover{
+    font-weight: bolder;
+    color-adjust: seagreen;
+}
+
+
 
 
 
