@@ -32,6 +32,7 @@ h2{
     text-align: center;
     color: forestgreen;
     size: 2em;
+    border-bottom: darkslategray;
 }
 
 main a:hover{
