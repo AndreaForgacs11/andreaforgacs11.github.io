@@ -45,6 +45,10 @@ h1, h2{
     font-family: 'Bodoni Moda', serif;
 }
 
+p{
+    font-family: 'DM Mono', monospace;
+}
+
 main a:hover{
     font-weight: bolder;
 }
