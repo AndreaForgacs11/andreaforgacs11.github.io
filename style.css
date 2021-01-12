@@ -20,6 +20,7 @@ h1{
     size: 4em;
 }
 
+
 #picture{
     width: 150px;
     float: right;
@@ -38,6 +39,10 @@ h2{
     color: forestgreen;
     size: 2em;
     border-bottom-color: darkslategray;
+}
+
+h1, h2{
+    font-family: 'Bodoni Moda', serif;
 }
 
 main a:hover{
