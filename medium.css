@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @media only screen and (min-width: 32.5em) {
     h1{
         size: 8em;
@@ -7,7 +6,22 @@
     h2{
         size: 2em;
     }
+
+    header{
+        border-radius: 25px;
+    }
+
+    footer{
+        border-radius: 25px;
+    }
+
+    #picture{
+        width: 150px;
+        float: right;
+        border: 5px;
+        border-style: inset;
+        border-color: darkslategray;
+        margin-top: -75px;
+    }
+
 }
-=======
-@media (min-width: 32.5em)
->>>>>>> 1c895a41acbe432213a2c6e2893847f650f26b73
