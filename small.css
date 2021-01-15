@@ -65,7 +65,7 @@ footer{
     font-weight: bold;
 }
 
-footer a{
+footer a:hover{
     color: maroon;
     font-weight: bolder;
 }
