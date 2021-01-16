@@ -50,7 +50,10 @@ h1, h2{
 }
 
 hr{
-    margin-right: 150px;
+    box-sizing: content-box;
+    height:0;
+    overflow: visible;
+    margin-right: 170px;
 }
 
 ul{
