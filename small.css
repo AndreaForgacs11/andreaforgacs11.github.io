@@ -49,6 +49,10 @@ h1, h2{
     font-family: 'Bodoni Moda', serif;
 }
 
+hr{
+    margin-right: 150px;
+}
+
 ul{
     width: 500px;
 }
