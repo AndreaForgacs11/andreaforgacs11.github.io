@@ -27,6 +27,7 @@
         border: 5px;
         border-style: inset;
         border-color: darkslategray;
+        display: block;
     }
 
 }
