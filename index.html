@@ -19,10 +19,13 @@
     <img id="picture" src="https://github.com/AndreaForgacs11/andreaforgacs11.github.io/blob/master/Images/AndreaPortrait.jpg?raw=true" alt="Andrea Portrait">
   </header>
 
+  
   <main>
   <h2> WDD 230: Assignment Portal</h2>
 
+
   <hr>
+
 
   <nav>
     <ul>
@@ -46,6 +49,7 @@
   </nav>
   </main>
 
+
   <footer>
     <div>
       © <script>document.write( new Date().getFullYear() );</script> | Andrea Forgacs | South Carolina | 
@@ -56,14 +60,11 @@
   </h1> 
   <span id="showDate"></span>
 </footer>
+
+
   <script type="text/javascript">
     function LastModifiedDate() {
-      // Create a variable called "dateFromPage"
-      // Using the current page (or "document"), get the lastModified
       var computerDateFromPage = document.lastModified;
-      // Format the date from the computer
-      //var formattedDate = computerDateFromPage.toLocaleDateString("en-US");
-      // Search the page for an HTML element with an ID of "showDate"
       document.getElementById("showDate").innerHTML = computerDateFromPage;
     }
     LastModifiedDate();
