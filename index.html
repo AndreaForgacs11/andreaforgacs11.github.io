@@ -52,19 +52,23 @@
       <a href="https://www.byui.edu/online"> BYU-I Online Learning</a>
     </div>
     
-        Last Updated: 
-    <p id="lastupdated">
-      L
-    </p>
-
-  </footer>
-
-  <script>
-    function lastupdated(){
-      var testing=document.lastModified;
-      document.getElementById("lastupdated").innerHTML = lastupdated;
-    } ()
+    <span id="showDate"></span>
+  </h1>
+  <span id="showDate"></span>
+</footer>
+  <script type="text/javascript">
+    function LastModifiedDate() {
+      // Create a variable called "dateFromPage"
+      // Using the current page (or "document"), get the lastModified
+      var computerDateFromPage = new Date(document.lastModified);
+      // Format the date from the computer
+      var formattedDate = computerDateFromPage.toLocaleDateString("en-US");
+      // Search the page for an HTML element with an ID of "showDate"
+      document.getElementById("showDate").innerHTML = formattedDate;
+    }
+    LastModifiedDate();
   </script>
+
 
 </body>
 </html>  
