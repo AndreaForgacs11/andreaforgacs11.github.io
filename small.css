@@ -52,7 +52,6 @@ h1, h2{
 hr{
     box-sizing: content-box;
     height:0;
-    overflow: visible;
     margin-right: 500px;
 }
 
