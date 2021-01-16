@@ -65,6 +65,12 @@ footer{
     font-weight: bold;
 }
 
+
+footer a{
+    color: midnightblue;
+}
+
+
 footer a:hover{
     color: maroon;
     font-weight: bolder;
