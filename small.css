@@ -1,8 +1,9 @@
 body{
     margin: 0 auto;
     background-color: honeydew;
-    font-size: 1.25;
-    line-height: 1em;
+    font-size: 1.25em;
+    line-height: 2.5em;
+    line
     max-width: 750px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
@@ -37,7 +38,8 @@ h1, h2{
     border: 5px;
     border-style: inset;
     border-color: darkslategray;
-    margin-top: -75px;
+    margin-top: 1.5em;
+    margin-left: 5em;
 }
 
 main{
@@ -49,14 +51,6 @@ main a{
 }
 
 
-
-hr{
-    box-sizing: content-box;
-    height:0;
-    margin-right: 500px;
-}
-
-
 main a:hover{
     color: maroon;
     font-weight: bolder;
@@ -65,8 +59,7 @@ main a:hover{
 footer{
     text-align: center;
     background-color: seagreen;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    padding: 1em;
     color: midnightblue;
     font-weight: normal;
     margin: 1em;
