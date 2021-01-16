@@ -6,6 +6,7 @@
 
   body{
     width: 750px;
+    margin: 0 auto;
 }
 
   section:nth-child(3) {
