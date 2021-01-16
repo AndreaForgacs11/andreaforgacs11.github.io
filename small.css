@@ -21,23 +21,6 @@ h1{
     margin: 1em;
 }
 
-
-#picture{
-    width: 150px;
-    border: 5px;
-    border-style: inset;
-    border-color: darkslategray;
-    margin-top: -75px;
-}
-
-main{
-    padding-bottom: 10px;
-}
-
-main a{
-    color: midnightblue;
-}
-
 h2{
     text-align: center;
     color: forestgreen;
@@ -48,6 +31,24 @@ h2{
 h1, h2{
     font-family: 'Bodoni Moda', serif;
 }
+
+#picture{
+    width: 150px;
+    border: 5px;
+    border-style: inset;
+    border-color: darkslategray;
+    margin-top: -75px;
+}
+
+main{
+    padding-bottom: 5em;
+}
+
+main a{
+    color: midnightblue;
+}
+
+
 
 hr{
     box-sizing: content-box;
@@ -64,11 +65,10 @@ main a:hover{
 footer{
     text-align: center;
     background-color: seagreen;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 1em;
+    padding-bottom: 1em;
     color: midnightblue;
     font-weight: normal;
-    text-align: center;
 }
 
 
