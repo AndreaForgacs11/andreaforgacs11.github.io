@@ -63,9 +63,9 @@
       // Using the current page (or "document"), get the lastModified
       var computerDateFromPage = document.lastModified;
       // Format the date from the computer
-      var formattedDate = computerDateFromPage.toLocaleDateString("en-US");
+      //var formattedDate = computerDateFromPage.toLocaleDateString("en-US");
       // Search the page for an HTML element with an ID of "showDate"
-      document.getElementById("showDate").innerHTML = formattedDate;
+      document.getElementById("showDate").innerHTML = formattedDateFromPage;
     }
     LastModifiedDate();
   </script>
