@@ -55,6 +55,10 @@ main a:hover{
     font-weight: bolder;
 }
 
+nav{
+    padding-bottom: 50em;
+}
+
 footer{
     text-align: center;
     background-color: seagreen;
