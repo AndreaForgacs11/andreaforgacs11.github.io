@@ -11,12 +11,14 @@ body{
 header{
     background-color: seagreen;
     padding: 1em;
+    display: block;
 }
 
 h1{
     text-align: center;
     color: midnightblue;
     size: 4em;
+    margin: 1em;
 }
 
 
@@ -47,8 +49,8 @@ h1, h2{
     font-family: 'Bodoni Moda', serif;
 }
 
-p{
-    font-family: 'DM Mono', monospace;
+ul{
+    width: 500px;
 }
 
 main a:hover{
