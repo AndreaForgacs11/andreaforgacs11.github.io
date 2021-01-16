@@ -56,8 +56,13 @@
     <span id="lastupdated"></span>
 
   </footer>
-    <script src="javascript/currentYear.js"></script>
-    <script src="javascript/lastupdated.js"></script>
+
+  <script>
+    function lastupdated(){
+      var x=document.lastModified
+      document.getElementById("lastupdated").innerHTML = x;
+    }
+  </script>
 
 </body>
 </html>  
