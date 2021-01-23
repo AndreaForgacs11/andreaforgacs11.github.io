@@ -1,13 +1,18 @@
 body {
     background-color: #E0ECF5;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+    font-family: "Sansita", Ubuntu, Sans-serif;
+    color: #11212D;
+    font-weight: bold;
+    margin: 0 auto;
+  
   }
   
   nav {
     background-color: #11212D;
     margin: 0 auto;
     text-align: center;
-    font-size: 125%;  
+    font-size: 125%; 
+    font-weight: 400;
   }
   
   nav ul {
@@ -25,10 +30,14 @@ body {
   
   nav a:hover {
     color: #7A9970;
+    background-color: #11212D;
+  }
+  
+  h1, h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    color: #7a9970;
   }
   
   h2 {
-    color: #7a9970;
-    text-decoration: underline;
+      text-decoration: underline;
   }
-  
