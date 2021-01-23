@@ -53,6 +53,10 @@ body {
   img {
     width: 220px;
   }
+
+  .colorpalette {
+    width: 100%;
+  }
    
 footer {
     background-color: #11212D;
