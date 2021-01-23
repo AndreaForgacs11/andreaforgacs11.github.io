@@ -16,6 +16,8 @@ body {
     font-size: 125%; 
     font-weight: 400;
     box-shadow: 0 2px 15px #7A9970;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
   
   nav ul {
