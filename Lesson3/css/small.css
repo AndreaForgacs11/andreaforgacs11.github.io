@@ -9,28 +9,31 @@ body {
   
   nav {
     background-color: #11212D;
-    margin: 0 auto;
     text-align: center;
     font-size: 125%; 
     font-weight: 400;
+    box-shadow: 0 2px 15px #7A9970;
   }
   
   nav ul {
-    list-style: none;
+    list-style-type: none;
     margin: 0;
+    padding: 0;
     overflow: hidden;
-    padding: 15px;
   }
   
-  nav a {
-    text-align: center;
-    text-decoration: none;
+  nav li a {
+    display: block;
     color: #FEF1EC;
+    text-align: center;
+    padding: 3px;
+    text-decoration: none;
+    
   }
   
   nav a:hover {
-    color: #7A9970;
-    background-color: #11212D;
+    background-color: darkslategray;
+    color: white;
   }
   
   h1, h2 {
