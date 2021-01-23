@@ -55,16 +55,18 @@
     <span id="showDate"></span>
     </h1> 
      <span id="showDate"></span>
+
+     <script type="text/javascript">
+        function LastModifiedDate() {
+          var computerDateFromPage = document.lastModified;
+          document.getElementById("showDate").innerHTML = computerDateFromPage;
+        }
+        LastModifiedDate();
+      </script>
   </footer>
 
 
-  <script type="text/javascript">
-    function LastModifiedDate() {
-      var computerDateFromPage = document.lastModified;
-      document.getElementById("showDate").innerHTML = computerDateFromPage;
-    }
-    LastModifiedDate();
-  </script>
+
 
   
   </html>  
