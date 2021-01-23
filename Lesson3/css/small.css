@@ -49,3 +49,22 @@ body {
   h2 {
       text-decoration: underline;
   }
+  
+  footer {
+    background-color: #11212D;
+    text-align: center;
+    color: white;
+    font-size: 125%; 
+    font-weight: 400;
+    box-shadow: 0 2px 15px #7A9970;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #7a9970;
+    font-size: 90%;
+  }
+  
+  footer a:hover {
+    color: green;
+  }
