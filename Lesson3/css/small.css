@@ -55,13 +55,10 @@ body {
       text-decoration: underline;
   }
 
-  .lcwlogo img {
+  .lcwlogo  {
     width: 220px;
   }
 
-  .colorpalette img {
-    width: 100%;
-  }
    
 footer {
     background-color: #11212D;
