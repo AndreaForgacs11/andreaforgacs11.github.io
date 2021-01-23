@@ -18,7 +18,6 @@ body {
   }
   
   nav a {
-    display: block;
     text-align: center;
     text-decoration: none;
     color: #FEF1EC;
@@ -27,3 +26,9 @@ body {
   nav a:hover {
     color: #7A9970;
   }
+  
+  h2 {
+    color: #7a9970;
+    text-decoration: underline;
+  }
+  
