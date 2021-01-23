@@ -2,6 +2,7 @@ body {
     background-color: #E0ECF5;
     font-family: "Sansita", Ubuntu, Sans-serif;
     color: #11212D;
+    font-size: 80%;
     font-weight: bold;
     margin: 0 auto;
   
@@ -62,7 +63,6 @@ footer {
     background-color: #11212D;
     text-align: center;
     color: white;
-    font-size: 125%; 
     font-weight: 400;
     padding-top: 5px;
     padding-bottom: 10px;
