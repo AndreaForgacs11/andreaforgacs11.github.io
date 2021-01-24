@@ -82,7 +82,7 @@ footer {
 
 
   .color-palette {
-    width: 80%;
+    width: 75%;
   }
 
 
@@ -95,3 +95,15 @@ footer {
     color: green;
   }
   
+
+  /* Typography Page*/
+
+  .trebuchet-sample-text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+  }
+
+  .sansita-sample-text {
+    font-family: "Sansita", Ubuntu, Sans-serif;
+    font-size: 15px;
+  }
