@@ -80,7 +80,8 @@ footer {
   /* Target Audience Page */
 
   .scenerios {
-
+    color:#7A9970;
+    font-weight: normal;
   }
 
 
@@ -108,10 +109,10 @@ footer {
 
   .trebuchet-sample-text {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 80px;
+    font-size: 50px;
   }
 
   .sansita-sample-text {
     font-family: "Sansita", Ubuntu, Sans-serif;
-    font-size: 80px;
+    font-size: 50px;
   }
