@@ -58,11 +58,6 @@ body {
   .logo-box  {
     width: 220px;
   }
-
-  .color-palette {
-    width: 70%;
-  }
-
    
 footer {
     background-color: #11212D;
@@ -81,3 +76,22 @@ footer {
   footer a:hover {
     color: green;
   }
+
+
+  /* Color Scheme Page */
+
+
+  .color-palette {
+    width: 70%;
+  }
+
+
+  p a  {
+    text-decoration: none;
+    color: #7a9970;
+  }
+
+  p a:hover {
+    color: green;
+  }
+  
