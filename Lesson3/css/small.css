@@ -86,12 +86,12 @@ footer {
   }
 
 
-  p a  {
+  .color-palette-link a  {
     text-decoration: none;
     color: #7a9970;
   }
 
-  p a:hover {
+  .color-palette-link a:hover {
     color: green;
   }
   
