@@ -60,7 +60,7 @@ body {
   }
 
   .color-palette {
-    max-width: 500px;
+    viewport-fit: 70%;
   }
 
    
