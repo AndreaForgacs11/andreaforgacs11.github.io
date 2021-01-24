@@ -59,6 +59,10 @@ body {
     width: 220px;
   }
 
+  .color-palette {
+    max-width: 500px;
+  }
+
    
 footer {
     background-color: #11212D;
