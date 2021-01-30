@@ -83,6 +83,7 @@ body {
   nav a:hover {
     background-color: darkslategray;
     color: white;
+    font-weight: bold;
   }
   
   nav li {
