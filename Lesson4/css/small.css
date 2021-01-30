@@ -31,7 +31,6 @@ body {
   .lcw-motto {
     font-style: oblique;
     font-size: 110%;
-    margin-top: -11px;
     padding-bottom: 11px;
   }
   
@@ -69,7 +68,7 @@ body {
 
   main {
     margin: auto;
-    padding: 5 11 11 11;
+    padding: 11px;
   }
   
   
