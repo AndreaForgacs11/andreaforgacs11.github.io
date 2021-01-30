@@ -30,7 +30,8 @@ body {
 
   .lcw-motto {
     font-style: oblique;
-    font-size: 80%;
+    font-size: 100%;
+    font-variant: small-caps;
     padding-bottom: 11px;
   }
   
