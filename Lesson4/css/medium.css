@@ -25,5 +25,9 @@
     .nav-bar li:first-child {
       display: none;
     }
+
+    footer {
+      font-size: 100%;
+    }
     
   }
