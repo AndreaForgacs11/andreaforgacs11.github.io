@@ -113,6 +113,10 @@ body {
   .nav-bar li:first-child {
     display: block;
   }
+
+  .menu-id li {
+    display: block;
+  }
    
 
 footer {
