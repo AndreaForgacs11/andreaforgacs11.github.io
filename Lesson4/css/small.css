@@ -113,7 +113,12 @@ body {
   .nav-bar li: first-child {
     display: block;
   }
+
+  .menu-id li {
+    display: block;
+}
    
+
 footer {
     background-color: #11212D;
     text-align: center;
