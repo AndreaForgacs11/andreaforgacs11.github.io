@@ -110,7 +110,7 @@ body {
     padding: 0;
   }
     
-  .nav-bar li: first-child {
+  .nav-bar li:first-child {
     display: block;
   }
 
