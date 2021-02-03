@@ -69,6 +69,22 @@ body {
     font-weight: bold;
   }
 
+  .hero-div {
+    margin: 10px auto;
+    background-color: #eee;
+    border: 2px solid #333;
+    width: 98%;
+    height: 200px;
+  }
+  
+  
+  .weather-summary {
+    position: absolute;
+    left: -10px;
+    bottom: -10px;
+    box-shadow: 0 2px 15px #7A9970;
+  }
+
 
   .content-box{
     display: block;
