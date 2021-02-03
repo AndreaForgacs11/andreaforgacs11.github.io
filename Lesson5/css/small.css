@@ -56,7 +56,7 @@ body {
   }
   
 
-  .hero-div{
+  .hero-container{
     display: block;
     height: 300px;
     position: relative;
@@ -81,8 +81,8 @@ body {
 
 .weather-summary {
   position: absolute;
-  left: 5px;
-  bottom: 5px;
+  left: -5px;
+  bottom: -5px;
   box-shadow: 0 2px 15px #7A9970;
 }
 
@@ -179,5 +179,3 @@ footer {
   #currentdate {
     color: seashell;
   }
-
-  cursor: url(https://github.com/AndreaForgacs11/andreaforgacs11.github.io/blob/master/Lesson5/Images/cursor.png?raw=true), auto;
