@@ -80,7 +80,8 @@ body {
   
   .weather-summary {
     position: absolute;
-    left: -50px;
+    left: 50px;
+    top: 100px;
     box-shadow: 0 2px 15px #7A9970;
   }
 
