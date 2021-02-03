@@ -68,13 +68,13 @@ body {
     color: #11212D;
     font-weight: bold;
   }
-  
+
 
 .hero-div {
   margin: 10px auto;
   background-color: #eee;
   border: 2px solid #333;
-  width: 100%;
+  width: 98%;
   height: 200px;
 }
 
