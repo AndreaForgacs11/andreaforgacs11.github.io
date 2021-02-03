@@ -74,14 +74,12 @@ body {
     background-color: #eee;
     border: 2px solid #333;
     width: 98%;
-    height: 200px;
+    height: 90%;
   }
   
   
   .weather-summary {
     position: absolute;
-    left: -10px;
-    bottom: -10px;
     box-shadow: 0 2px 15px #7A9970;
   }
 
