@@ -77,6 +77,10 @@ body {
     height: 90%;
   }
   
+  .hero-div img {
+    width: 100%;
+
+  }
   
   .weather-summary {
     position: absolute;
