@@ -16,6 +16,9 @@
 
 
   <body>
+    <div id="park-pancakes" style="display: block;"></div>
+    
+    
     <header>
       <img class="logo-box" src="https://github.com/AndreaForgacs11/andreaforgacs11.github.io/blob/master/Lesson5/Images/sitelogo.png?raw=true" alt="LCW Logo">
       <section class="title">
@@ -40,20 +43,92 @@
     <main>
       <h2 class="preston-heading">Preston Idaho</h2>
       <div class="hero-container">
-        <div class="hero-div">
-          <img class="hero-image" src="https://github.com/AndreaForgacs11/andreaforgacs11.github.io/blob/master/Lesson5/Images/Idaho.jpg?raw=true" alt="Idaho Image">
-        </div>
+          <img class="idaho-image" src="/Images/Idaho.jpg?raw=true" alt="Idaho Image">
          <section class="weather-summary">
            <h3>Weather Summary</h3>
-           <p>Lable: Value</p>
-           <p>Lable: Value</p>
-           <p>Lable: Value</p>
+           <p>Currently: Sunny</p>
+           <p>High: 75°F</p>
+           <p>Wind Chill: °F</p>
+           <p>Humidity: 50%</p>
+           <p>Wind Speed: 10 mph</p>
         </section>
       </div>
 
-      <div class="content-box">5 Day Forecast</div>
-      <div class="content-box">Articles</div>
-      <div class="content-box">Contact Information</div>
+
+      <div class="forecast">
+        <h3>5 Day Forecast</h3>
+        <table id="weekly-forecast">
+          <thead>
+            <tr id="days">
+              <th>Monday</th>
+              <th>Tuesday</th>
+              <th>Wednesday</th>
+              <th>Thursday</th>
+              <th>Friday</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <img class="forecast-img" src="INPUT" alt="Monday weather">
+                <br>
+                <span id="one">65 °F</span>
+              </td>
+
+              <td>
+                <img class="forecast-img" src="INPUT" alt="Tuesday weather">
+                <br>
+                <span id="two">65 °F</span>
+              </td>
+
+              <td>
+                <img class="forecast-img" src="INPUT" alt="Wednesday weather">
+                <br>
+                <span id="three">75 °F</span>
+              </td>
+
+              <td>
+                <img class="forecast-img" src="INPUT" alt="Thursday weather">
+                <br>
+                <span id="four">55 °F</span>
+              </td>
+
+              <td>
+                <img class="forecast-img" src="INPUT" alt="Friday weather">
+                <br>
+                <span id="five">80 °F</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+      <div class="article">
+        <img class="article-img" source="INPUT" alt="warm winter">
+        <h3>One of the Warmest Winters on Record</h3>
+        <p>This winter will likely be among the top 10 warmest winters since 1945, 
+          but is abnormal weather becoming the new normal? While it is still February, the meteorological winter 
+          is nearing its end. Regardless of how we define winter, the last few months have been abnormally 
+          warm across the valley. In fact, it has been so unusually warm that the 2020-2021 winter has made its 
+          way into the record books on more than one occasion lately.
+        </p>
+      </div>
+
+      
+      <div class="contact-box">
+        <section class="contact-information">
+          <h4>Lowcountry Weather</h4>
+          <p>296 North State Street</p>
+          <p>Preston, ID 83263</p>
+          <p>999.999.9999</p>
+          <p>411@lcweather.com</p>
+          <a class="socialmedia" target="_blank" href="https://www.facebook.com"><img class="icon" src="INPUT" alt="Facebook"></a>
+          <a class="socialmedia" target="_blank" href="https://www.instagram.com"><img class="icon" src="INPUT" alt="Instagram"></a>
+          <a class="socialmedia" target="_blank" href="https://www.twitter.com"><img class="icon" src="INPUT" alt="Twitter"></a>
+        </section>
+        <img class="id-map" src="INPUT">
+      </div>
     </main>
 
 
