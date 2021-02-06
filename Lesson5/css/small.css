@@ -4,7 +4,13 @@ body {
     color: #11212D;
     font-weight: lighter;
     margin: 0 auto;
-  
+  }
+
+  #park-pancakes {
+    display: none;
+    background-color: #e9ae0c;
+    color: aliceblue;
+    padding: 10px;
   }
 
   header {
@@ -33,80 +39,18 @@ body {
     font-size: 125%;
     padding-bottom: 11px;
   }
-  
-  h1, h2 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-    color: #11212D;
-  }
-  
-  h1 {
-    text-align: center;
-    font-weight: bolder;
-    padding: 11px;
 
-  }
 
-  h2 {
-    color: #7A9970;
-  }
-
-  .preston-heading {
-    text-align: center;
-    color: #11212D;
-  }
-  
-
-  .hero-container{
+  .menu-id li {
     display: block;
-    height: 300px;
-    position: relative;
-    margin: 10px auto;
-    border: 2px solid seashell;
-    border-style: ridge;
-    padding: 10px;
-    background-color: #7A9970;
-    color: #11212D;
-    font-weight: bold;
-  }
-
-  .hero-div {
-    margin: 10px auto;
-    background-color: #eee;
-    border: 2px solid #333;
-    width: 98%;
-    height: 90%;
-  }
-  
-  .hero-div img {
-    object-fit: cover;
-
-  }
-  
-  .weather-summary {
-    position: absolute;
-    left: 25px;
-    top: 125px;
-    box-shadow: 0 2px 15px #7A9970;
   }
 
 
-  .content-box{
-    display: block;
-    margin: 10px auto;
-    border: 2px solid seashell;
-    border-style: ridge;
-    padding: 10px;
-    background-color: #7A9970;
-    color: #11212D;
-    font-weight: bold;
+  .active {
+    background-color: #e9ae0c;
   }
 
-  main {
-    margin: auto;
-    padding: 11px;
-  }
-  
-  
+
   nav {
     width: 100%;
     background-color: #11212D;
@@ -150,12 +94,107 @@ body {
     display: block;
   }
 
-  .menu-id li {
-    display: block;
+
+  main {
+    margin: auto;
+    padding: 11px;
+  }
+  
+
+  h1, h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    color: #11212D;
   }
 
-  .active {
-    background-color: #e9ae0c;
+  
+  h1 {
+    text-align: center;
+    font-weight: bolder;
+    padding: 11px;
+
+  }
+
+  h2 {
+    color: #7A9970;
+  }
+
+  .preston-heading {
+    text-align: center;
+    color: #11212D;
+  }
+
+  .hero-container {
+    margin: 15px;
+    position: relative;
+  }
+
+  .idaho-image {
+    width: 100%;
+  }
+  
+  .weather-summary {
+    position: absolute;
+    left: 25px;
+    top: 125px;  
+  }
+
+  .weather-summary {
+    position: absolute;
+    top: 0px;
+    background: radial-gradient(seashell), #c4c2bb);
+    border: 1px solid #7A9970;
+    padding: 5px;
+    box-shadow: 0 2px 15px #7A9970;
+    opacity: .8;
+    color: #11212D;
+    margin: 10px;
+  }
+
+
+  .forecast {
+    display: none;
+  }
+
+
+  .article {
+    display: block;
+    margin: 15px;
+    padding: 15px;
+    background-color: #7A9970;
+    color: #11212D;
+  }
+
+
+  .article-img {
+    width: 100%;
+  }
+
+
+  .contact-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 15px;
+    padding: 15px;
+  }
+
+
+  .contact-information {
+    grid-column: 1;
+    margin: auto;
+    text-align: center;
+  }
+
+
+  .icon {
+    width: 35px;
+    padding: 10px;
+  }
+
+
+  #id-map {
+    margin: auto;
+    grid-column: 1;
+    text-align: center;
   }
    
 
