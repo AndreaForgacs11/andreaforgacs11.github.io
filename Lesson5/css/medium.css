@@ -41,7 +41,7 @@
       background: radial-gradient(seashell, #c4c2bb);
       border: 1px solid #7A9970;
       padding: 1rem;
-      box-shadow: 0 2 30px #7A9970;
+      box-shadow: 0 0 30px #7A9970;
       opacity: .8;
       color: #11212D;
     }
