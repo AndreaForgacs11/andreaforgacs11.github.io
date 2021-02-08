@@ -166,7 +166,7 @@ body {
 
 
   .article-image {
-    width: 75%;
+    width: 100%;
   }
 
 
@@ -195,7 +195,7 @@ body {
     margin: auto;
     grid-column: 1;
     text-align: center;
-    width: 75%;
+    width: auto;
   }
    
 
