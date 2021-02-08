@@ -223,29 +223,3 @@ footer {
   }
 
   /* Just adding */
-
-  
-  .content-box{
-    display: block;
-    margin: 10px auto;
-    border: 2px solid seashell;
-    border-style: ridge;
-    padding: 10px;
-    background-color: #7A9970;
-    color: #11212D;
-    font-weight: bold;
-  }
-
-
-  .hero-container{
-    display: block;
-    height: 300px;
-    position: relative;
-    margin: 10px auto;
-    border: 2px solid seashell;
-    border-style: ridge;
-    padding: 10px;
-    background-color: #7A9970;
-    color: #11212D;
-    font-weight: bold;
-  }
