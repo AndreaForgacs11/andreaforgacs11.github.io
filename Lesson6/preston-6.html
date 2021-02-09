@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Andrea Forgacs">
+        <meta name="description" content="LCW Site Project W5">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500&family=DM+Mono:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <title>Lowcountry Weather</title>
+      </head>
+
+
+  <body>
+    <div id="park-pancakes" style="display: block;"></div>
+    
+    
+    <header>
+      <img class="logo-box" src="./Images/sitelogo.png?raw=true" alt="LCW Logo">
+      <section class="title">
+      <h1>Lowcountry Weather</h1>
+      <div class="lcw-motto">Beneath the Stratosphere</div>
+    </section>
+    </header>
+
+
+    <nav>
+      <ul class="nav-bar">
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a class="active" href="/Lesson5/preston-5.html">Preston</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a href="#">Storm Center</a></li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </nav>
+
+
+    <main>
+      <h2 class="preston-heading">Preston Idaho</h2>
+      <div class="hero-container">
+          <img class="idaho-image" src="./Images/Idaho.jpg" alt="Idaho Image">
+         <section class="weather-summary">
+           <h3>Weather Summary</h3>
+           <p>Currently: Sunny<br> High: 75°F<br> Wind Chill: °F<br> Humidity: 50%<br> Wind Speed: 10 mph
+          </p>
+        </section>
+      </div>
+
+
+      <div class="forecast">
+        <h3>5 Day Forecast</h3>
+        <table id="weekly-forecast">
+          <thead>
+            <tr id="days">
+              <th>Monday</th>
+              <th>Tuesday</th>
+              <th>Wednesday</th>
+              <th>Thursday</th>
+              <th>Friday</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <img class="forecast-image" src="./Images/cloudy.png" alt="Monday weather">
+                <br>
+                <span id="one">65 °F</span>
+              </td>
+
+              <td>
+                <img class="forecast-image" src="./Images/partlycloudy.png" alt="Tuesday weather">
+                <br>
+                <span id="two">65 °F</span>
+              </td>
+
+              <td>
+                <img class="forecast-image" src="./Images/sunny.png" alt="Wednesday weather">
+                <br>
+                <span id="three">75 °F</span>
+              </td>
+
+              <td>
+                <img class="forecast-image" src="./Images/cloudy.png" alt="Thursday weather">
+                <br>
+                <span id="four">55 °F</span>
+              </td>
+
+              <td>
+                <img class="forecast-image" src="./Images/sunny.png" alt="Friday weather">
+                <br>
+                <span id="five">80 °F</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+
+      <div class="article">
+        <img class="article-image" src="./Images/article.jpg" alt="warm winter">
+        <h3>One of the Warmest Winters on Record</h3>
+        <p>This winter in Preson, ID will likely be among the top 10 warmest winters since 1945, 
+          but is abnormal weather becoming the new normal?
+        </p>
+        <p>While it is still only February, the meteorological winter is nearing its end (December 21-March 20). 
+          Regardless of how we define winter, the last few months have certainly been abnormally warm across Preston, ID
+          valley. 
+        </p>
+        <p>In fact, it has been so unusually warm that the 2020-2021 winter has made its way into the 
+          record books on more than one occasion lately. 
+        </p>
+        <p>Among these records are 8 days this season that have brought the warmest temperatures since record keeping
+          first began. These include:
+          </p>
+          <ul>
+            <li>January 1</li>
+            <li>January 5</li>
+            <li>January 6</li>
+            <li>January 11</li>
+            <li>January 22</li>
+            <li>January 23</li>
+            <li>February 1</li>
+            <li>February 5</li>
+          </ul>
+        <p>As the end of the season continues and warm temperatures continue to be the new norm we will soon see how
+          this might affect the spring and summer season with a lack of much needed moisture.
+        </p>
+      </div>
+
+      
+      <div class="contact-box">
+        <section class="contact-information">
+          <h4>Lowcountry Weather</h4>
+          <p class="address-info">296 North State Street <br> Preston, ID 83263 <br>
+          <br>999.999.9999 <br> info@lcweather.com</p>
+          <a class="socialmedia" target="_blank" href="https://www.facebook.com"><img class="icon" src="./Images/facebook.png" alt="Facebook"></a>
+          <a class="socialmedia" target="_blank" href="https://www.instagram.com"><img class="icon" src="./Images/instagram.png" alt="Instagram"></a>
+          <a class="socialmedia" target="_blank" href="https://www.twitter.com"><img class="icon" src="./Images/twitter.png" alt="Twitter"></a>
+        </section>
+        <img class="id-map" src="./Images/preston-map.png" alt="preston map">
+      </div>
+    </main>
+
+
+    <footer>
+     <div>
+       © 2021 | Andrea Forgacs | South Carolina | 
+       <a href="https://www.byui.edu/online"> BYU-I Online Learning</a>
+      </div>
+      <br>
+      <span id="date"></span>
+    <script src="./js/currentDate.js"></script>
+    </footer>
+
+
+    <script src="./js/menu.js"></script>  
+  </body>
+
+  
+  </html>  
