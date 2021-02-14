@@ -15,7 +15,7 @@ header{
 h1{
     text-align: center;
     color: midnightblue;
-    size: 4em;
+    font-size: 4em;
 }
 
 
@@ -38,7 +38,7 @@ main a{
 h2{
     text-align: center;
     color: forestgreen;
-    size: 1em;
+    font-size: 1em;
     border-bottom-color: darkslategray;
 }
 
