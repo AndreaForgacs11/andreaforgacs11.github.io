@@ -1,5 +1,5 @@
 const temperature = document.getElementById('temperature').innerHTML;
-const windspeed = document.getElementById('windspeed').innerHTML;
+const windspeed = document.getElementById('windSpeed').innerHTML;
 
 /* The formula to calculate the wind chill factor is 
 f=35.74 + 0.6215t - 35.75s ^0.16 + 0.4275ts^0.16 = 35.74 + 0.6215 t − 35.75 s 0.16 + 0.4275 t s 0.16
@@ -11,13 +11,14 @@ and wind speeds above 4.8 kilometers per hour (3.0 mph)."
 
 */
 
-let windchill = 35.74 + (0.6215 * temperature) - (35.75 * Math.pow(windSpeed, .16)) + (0.4275 * temperature * Math.pow(windSpeed, .16));
-  if (temperature <= 50 && windSpeed > 3) {
+let windChill = 35.74 + (0.6215 * temperature) - (35.75 * Math.pow(windSpeed, .16)) + (0.4275 * temperature * Math.pow(windSpeed, .16));
+ 
+if (temperature <= 50 && windSpeed > 3) {
      windChill = Math.round(windChill);
   } 
   
   else {
-     windchill = "--";
+     windChill = "--";
   }
 
 document.getElementById('windChill').innerHTML = windChill;
