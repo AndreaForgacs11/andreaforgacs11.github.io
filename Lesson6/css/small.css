@@ -129,8 +129,7 @@ body {
   }
 
   .hero-picture {
-    max-width: 100%;
-    max-height: auto;
+    max-height: 350px;
   }
 
   .idaho-image {
