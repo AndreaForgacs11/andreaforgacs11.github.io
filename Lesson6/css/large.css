@@ -3,5 +3,9 @@
         max-width: 1920px;
         padding: 50px;
   }
+
+  .hero-picture {
+    max-height: 350px;
+  }
   
 }  
