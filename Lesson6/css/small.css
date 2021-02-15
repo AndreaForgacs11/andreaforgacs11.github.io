@@ -199,7 +199,7 @@ body {
   #id-map {
     margin: auto;
     grid-column: 1;
-    box-align: center;
+    align-items: center;
   }
    
 
