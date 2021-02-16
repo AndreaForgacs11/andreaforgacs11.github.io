@@ -127,6 +127,7 @@ body {
   .hero-container {
     margin: 15px;
     position: relative;
+    max-width: 100%;
   }
 
   .hero-picture {
