@@ -3,5 +3,15 @@
         max-width: 1920px;
         padding: 50px;
   }
+
+  #weekly-forecast {
+    margin: 0 auto;
+    width: 750px;
+    text-align: center;
+  }
+
+  .forecast-image {
+    width: 100%;
+  }
   
 }  
