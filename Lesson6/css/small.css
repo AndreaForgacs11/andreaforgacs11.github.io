@@ -129,6 +129,10 @@ body {
     position: relative;
   }
 
+  .hero-container img {
+    max-width: 100%;
+  }
+
   .hero-picture img {
     max-width: 100%;
   }
