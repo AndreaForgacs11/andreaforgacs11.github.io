@@ -62,6 +62,14 @@
       width: 100%;
     }
 
+    .hero-container img {
+      max-width: 100%;
+    }
+  
+    .hero-picture img {
+      max-width: 100%;
+    }
+
     .article-image {
       float: right;
       width: 50%; 
