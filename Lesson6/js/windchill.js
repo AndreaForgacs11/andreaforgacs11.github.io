@@ -18,7 +18,7 @@ if (temperature <= 50 && windSpeed > 3) {
   } 
   
   else {
-     windChill = "--";
+     windChill = "N/A";
   }
 
 document.getElementById('windChill').innerHTML = windChill;
