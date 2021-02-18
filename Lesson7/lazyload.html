@@ -1,9 +1,43 @@
-Use for placeholder imgs
+\\ Use for placeholder imgs
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Andrea Forgacs">
+        <meta name="description" content="Progressive Loading of Images">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500&family=DM+Mono:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/small.css">        
+    </head>
 
+    <body>
+        <h1>Lazy Loaded Images</h1>
+                <picture>
+                    <img src="./images/placeholder.png" data-src="images/cat1.webp" alt="cat>
+                </picture>
 
-https://via.placeholder.com/300x400.png
-https://via.placeholder.com/300x400.png
-https://via.placeholder.com/300x400.png
-https://via.placeholder.com/300x400.png
-https://via.placeholder.com/300x400.png
-https://via.placeholder.com/300x400.png
+                <picture>
+                    <img src="./images/placeholder.png" data-src="images/cat2.webp" alt="cat">
+                </picture>
+
+                <picture>
+                    <img src="./images/placeholder.png" data-src="images/cat3.webp" alt="cat">
+                </picture>
+                
+                <picture>
+                    <img src="./images/placeholder.png" data-src="images/cat4.webp" alt="cat">
+                </picture>
+                
+                <picture>
+                    <img src="./images/placeholder.png" data-src="images/cat5.webp" alt="cat">
+                </picture>
+
+                <picture>
+                    <img src="./images/placeholder.png" data-src="images/cat6.webp" alt="cat">
+                </picture>
+    </body>
+
+    <script src="./js/lazyLoad.js"></script>
+
+</html>
