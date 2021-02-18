@@ -20,12 +20,12 @@ if('IntersectionObserver' in window) {
       });
     });
 
-    imagesToLoad.forEach((image) => {
-      observer.observe(image);
+    imagesToLoad.forEach((img) => {
+      observer.observe(img);
     });
 
   } else {
-    imagesToLoad.forEach((image) => {
-      loadImages(image);
+    imagesToLoad.forEach((img) => {
+      loadImages(img);
     });
   }
