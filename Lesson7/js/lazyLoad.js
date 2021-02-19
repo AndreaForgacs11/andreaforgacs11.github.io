@@ -8,6 +8,11 @@ const loadImages = (image) => {
     };
 };
 
+const imgOptions = {
+  threshold: 0,
+  rootMargin: "0px 0px -200px 0px"
+};
+
 if('IntersectionObserver' in window) {
 
     const observer = new IntersectionObserver((items, observer) => {
