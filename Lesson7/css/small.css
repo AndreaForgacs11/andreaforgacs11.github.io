@@ -270,17 +270,3 @@ img {
   .gallery-img {
     width: 98%;
   }
-
-  header {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    padding: 5px;
-    background-color: #E0ECF5;
-    color: #11212D;
-  }
-
-  .logo-box {
-    height: 80px;
-    padding-right: 11px;
-  }
