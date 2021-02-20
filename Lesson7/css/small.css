@@ -1,12 +1,237 @@
+
 body {
-    background-color: burlywood;
-}
+    background-color: #E0ECF5;
+    font-family: "Sansita", Ubuntu, Sans-serif;
+    color: #11212D;
+    font-weight: lighter;
+    margin: 0 auto;
+  }
+
+  #park-pancakes {
+    display: none;
+    background-color: #e9ae0c;
+    color: aliceblue;
+    padding: 10px;
+  }
+
+  header {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+    background-color: #E0ECF5;
+    color: #11212D;
+  }
+
+  .logo-box {
+    height: 80px;
+    padding-right: 11px;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#11212D;
+  }
+
+  .lcw-motto {
+    font-style: oblique;
+    font-size: 125%;
+    padding-bottom: 11px;
+  }
 
 
-h1 {
+  .menu-id li {
+    display: block;
+  }
+
+
+  .active {
+    background-color: #e9ae0c;
+    color: #11212D;
+  }
+
+
+  nav {
+    width: 100%;
+    background-color: #11212D;
     text-align: center;
-    color: rgb(21, 17, 18);
-}
+    padding-top: 5px;
+    padding-bottom: 5px;
+    letter-spacing: 1px;
+  }
+
+  nav a:hover {
+    background-color: darkslategray;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav li {
+    display: none;
+  }
+  
+  nav li a {
+    display: block;
+    color: #FEF1EC;
+    text-align: center;
+    padding: 2px;
+    text-decoration: none; 
+  }
+
+  nav ul li.active a {
+    background-color: aliceblue;
+    color: #11212D;
+  }
+
+  .nav-bar {
+    list-style: none;;
+    text-align: center;
+    padding: 0;
+    position: relative;
+  }
+    
+  .nav-bar li:first-child {
+    display: block;
+  }
+
+
+  main {
+    margin: auto;
+    padding: 11px;
+  }
+  
+
+  h1, h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    color: #11212D;
+  }
+
+  
+  h1 {
+    text-align: center;
+    font-weight: bolder;
+    padding: 11px;
+
+  }
+
+  h2 {
+    color: #7A9970;
+  }
+
+  .preston-heading {
+    text-align: center;
+    color: #11212D;
+  }
+
+  .hero-container {
+    margin: 15px;
+    position: relative;
+  }
+
+  .hero-container img {
+    max-width: 100%;
+  }
+
+  .hero-picture img {
+    max-width: 100%;
+  }
+
+  .idaho-image {
+    width: 100%;
+  }
+  
+  .weather-summary {
+    position: absolute;
+    left: 25px;
+    top: 125px;  
+  }
+
+  .weather-summary {
+    position: absolute;
+    top: 0px;
+    background: radial-gradient(seashell, #c4c2bb);
+    border: 1px solid #7A9970;
+    padding: 5px;
+    box-shadow: 0 2px 15px #7A9970;
+    opacity: .8;
+    color: #11212D;
+    margin: 10px;
+  }
+
+
+  .forecast {
+    display: none;
+  }
+
+
+  .article {
+    display: block;
+    margin: 15px;
+    padding: 15px;
+    background-color: #7A9970;
+    color: #11212D;
+  }
+
+
+  .article-image {
+    width: 100%;
+  }
+
+
+  .contact-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 15px;
+    padding: 15px;
+  }
+
+
+  .contact-information {
+    grid-column: 1;
+    margin: auto;
+    text-align: center;
+  }
+
+
+  .icon {
+    width: 35px;
+    padding: 10px;
+  }
+
+
+  #id-map {
+    margin: auto;
+    align-items: center;
+  }
+   
+
+footer {
+    background-color: #11212D;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 90%;
+    padding: 11px;
+    margin: 0 auto;
+    max-width: 990px;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: #7a9970;
+  }
+  
+  footer a:hover {
+    color: green;
+  }
+
+  #currentdate {
+    color: seashell;
+  }
+
+  /* Week 7 */
 
 img[data-src] {
     filter: blur(0.2em);
@@ -20,3 +245,42 @@ img {
     filter: blur(0em);
     transition: filter 0.5s;
 }
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 25px;
+  }
+  
+  .gallery figure {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .gallery figcaption {
+    font-family: "Sansita", Ubuntu, Sans-serif;
+    color: #11212D;
+    size: 2em;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .gallery-img {
+    width: 98%;
+  }
+
+  header {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+    background-color: #E0ECF5;
+    color: #11212D;
+  }
+
+  .logo-box {
+    height: 80px;
+    padding-right: 11px;
+  }
