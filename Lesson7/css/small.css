@@ -262,7 +262,7 @@ img {
   .gallery figcaption {
     font-family: "Sansita", Ubuntu, Sans-serif;
     color: #11212D;
-    size: 2em;
+    font-size: 2em;
     font-weight: bold;
     text-align: center;
   }
