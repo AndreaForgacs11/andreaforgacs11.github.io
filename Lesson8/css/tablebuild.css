@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+    background-color: white;
+}
+
+
+#ACMEwildwest {
+    font-family: Ubuntu, sans-serif;
+    margin: 0 auto;
+    border: solid 1px #e7f0ed;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+caption {
+    background-color: #7fb9c2;
+    font-size: 2em;
+    font-weight: bolder;
+    padding: 5px;
+}
+
+th {
+    background-color: #628ca6;
+    color: white;
+    font-size: 1.25em;
+    padding: 10px;
+}
+
+tbody {
+    background-color: #e7f0ed;
+}
+
+tfoot {
+    background-color: #7fb9c2;
+    font-size: .75em;
+}
+
