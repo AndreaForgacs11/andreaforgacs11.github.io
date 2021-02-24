@@ -5,13 +5,17 @@ body {
     background-color: white;
 }
 
+table, th, tr, td {
+    border: 3px solid #abadad;
+    border-collapse: collapse;
+    padding: .5em;
+}
+
 
 table {
     font-family: Ubuntu, sans-serif;
     margin: 0 auto;
-    border: solid 2px #e7ffed;
-    border-collapse: collapse;
-    box-shadow: 8px 8px 12px #628ca6;
+    box-shadow: 10px 10px 20px #628ca6;
     font-size: 20px;
     text-align: center;
 }
@@ -33,7 +37,6 @@ th {
 
 td {
     padding: 10px;
-    border: solid 2px #7fb9c2;
 }
 
 
