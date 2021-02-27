@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Andrea Forgacs">
+        <meta name="description" content="LCW Site Project W8">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500&family=DM+Mono:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <title>Storm Center</title>
+      </head>
+
+
+  <body>
+    <header>
+      <img class="logo-box" src="./images/sitelogo.png?raw=true" alt="LCW Logo">
+      <section class="title">
+      <h1>Lowcountry Weather</h1>
+      <div class="lcw-motto">Beneath the Stratosphere</div>
+    </section>
+    </header>
+
+
+    <nav>
+      <ul class="nav-bar">
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a href="/Lesson6/preston-6.html">Preston</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="#">Soda Springs</a></li>
+        <li><a class="active" href="/Lesson8/stormcenter.html">Storm Center</a></li>
+        <li><a href="/Lesson7/gallery-7.html">Gallery</a></li>
+      </ul>
+    </nav>
+
+    <main>
+        <form method="POST" action="thanks.html">
+            <fieldset>
+            <label>Full Name:* <input type="text" name="fullName" pattern="[a-zA-Z ]{5}+" required/></label>
+            <label>Email: <input type="email" name="email" placeholder="email@domain.com" /></label>
+            <label>Phone Number:* <input type="tel" name="phone" required/></label>
+            <label>Zip Code:* <input type="number" name="zip" required/></label>
+            <label>Storm Date: <input type="date" name="stormDate" /></label>
+            <label>Storm Type: <input list="stormTypes" name="stormType" id="stormType" /></label>
+            <datalist id="stormTypes">
+            <option value="Flash Flood">
+            <option value="Hurricaine">
+            <option value="Hail">
+            <option value="Thunderstaorm">
+            <option value="Tornado">
+            </datalist>
+            <label>Storm Severity:
+            <input type="range" name="severity" value="5" min="1" max="10" step="1" list="tickmarks">
+            <datalist id="tickmarks">
+            <option value="0">
+            <option value="1">
+            <option value="2">
+            <option value="3">
+            <option value="4">
+            <option value="5">
+            <option value="6">
+            <option value="7">
+            <option value="8">
+            <option value="9">
+            <option value="10">
+            </datalist>
+            </label>
+            <label>
+            Storm Region:
+            <select name="region">
+            <option value="" disabled>Select Region ...</option>
+            <option value="preston">Preston</option>
+            <option value="soda_springs">Soda Springs</option>
+            <option value="fish_haven">Fish Haven</option>
+            </select>
+            </label>
+            <label>User in Danger?
+            Yes <input type="radio" value="yes" />
+            No <input type="radio" value="no" />
+            Maybe <input type="radio" value="maybe" />
+            </label>
+            <label>
+            Additional information or comments:
+            <textarea name="comments" rows="4" cols="50">
+            </textarea>
+            </label>
+            <label><input type="submit" value="Send my Storm Report" /></label>
+            </fieldset>
+            </form>
+    </main>
+
+
+    <footer>
+     <div>
+       © 2021 | Andrea Forgacs | <a class="AFindex" href="/index.html">Home Portal </a>| South Carolina | 
+       <a href="https://www.byui.edu/online"> BYU-I Online Learning</a>
+      </div>
+      <br>
+      <span id="date"></span>
+    </footer>
+
+    <script src="./js/currentDate.js"></script>
+    <script src="./js/menu.js"></script>  
+    <script src="js/windchill.js"></script>
+  </body>
+
+  
+  </html>  
