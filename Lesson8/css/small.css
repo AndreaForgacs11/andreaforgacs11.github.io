@@ -231,7 +231,7 @@ footer {
     color: seashell;
   }
 
-  /* Week 7 */
+  /* Week 7 Gallery Page */
 
   img[data-src] {
     filter: blur(0.2em);
@@ -269,3 +269,47 @@ img {
   .gallery-img {
     width: 98%;
   }
+
+    /* Week 8 Thanks Page */
+
+  .thanksMain {
+    background-color: white;
+    max-width: 50%;
+  }
+
+.thanks {
+  text-align: center;
+  padding: 5em;
+  font-size: 1.5em;
+  font-style: italic;
+  color: #7a9970;
+}
+
+  /* Week 8 Storm Center Page */
+
+form {
+  font-size: 111%;
+  padding: 4px;
+}
+
+form fieldset {
+  margin: 2em;
+  padding: 1em;
+  border: solid;
+  border-radius: 11px;
+  border-spacing: .5em;
+}
+
+form legend {
+  font-weight: bold;
+  font-size: 1.25;
+}
+
+form label, form label .stormInfo {
+  display: block;
+  padding: .25em;
+}
+
+form label.userInfo input, .stormInfo input, select {
+  display: block;
+}
