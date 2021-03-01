@@ -305,11 +305,15 @@ form legend {
   font-size: 1.25em;
 }
 
-form label, form label .stormInfo {
+form label, form label .stormInfo, .danger {
   display: block;
   padding: .25em;
 }
 
 form label.userInfo input, .stormInfo input, select {
   display: block;
+}
+
+.radio {
+  display: inline;
 }
