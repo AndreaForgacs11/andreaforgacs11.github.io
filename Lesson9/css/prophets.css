@@ -1,1 +1,77 @@
-prophets.css
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    gap: 2px;
+    padding: 20px;
+    background-color: rgba(61, 55, 55, 0.5);
+    margin: 0;
+    place-content: center;
+}
+
+section{
+    background-color: rgb(66, 71, 80);
+    border: 5px solid rgb(22, 23, 34);
+    color: rgb(226, 219, 219);
+}
+
+h1{
+    padding-bottom: 15px;
+}
+
+h1, p, h2{
+    text-align: center;
+}
+
+h1, h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    color: rgb(22, 23, 34);
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img{
+    display: block;
+    margin: auto;
+    padding: 5px;
+    height: 60%;
+}
+
+footer{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+@media screen and (max-width: 700px){
+    .cards{
+        display: block;
+    }
+
+    section{
+        padding: 10px;
+    }
+
+
+
+@media screen and (max-width:1350px){
+    .cards{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 10px;
+        padding-left: 10px;
+    }
+}
+
+
+}
