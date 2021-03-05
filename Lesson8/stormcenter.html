@@ -79,9 +79,11 @@
                 </label>
 
 
-                <label class="stormInfo">
+                <label class="stormInfo" for="rating">
                     Storm Severity:
-                    <input type="range" name="severity" min="1" max="10" step="1" value="5" list="tickmarks">
+                    <input type="range" id="rating" min="1" max="10" step="1" value="5" list="tickmarks" 
+                    oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                    <span id="ratingValue">5</span>
                     <datalist id="tickmarks">
                         <option value="0"></option>
                         <option value="1"></option>
@@ -143,6 +145,7 @@
     <script src="./js/currentDate.js"></script>
     <script src="./js/menu.js"></script>  
     <script src="js/windchill.js"></script>
+    <script src="js/severity.js"></script>
   </body>
 
   
