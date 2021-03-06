@@ -15,7 +15,7 @@ fetch(requestURL)
         let p1 = document.createElement('p');
         let p2 = document.createElement('p');
         let p3 = document.createElement('p');
-        let image = document.createElement('images');
+        let image = document.createElement('img');
 
         h2.textContent = towns[i].name;
         h5.textContent = towns[i].motto;
