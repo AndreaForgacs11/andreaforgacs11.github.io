@@ -112,8 +112,14 @@
     .cards section {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      padding: 1em;
+      padding: .75em;
+      line-height: 12px;
 
+    }
+
+    .cards section:nth-child(2) div {
+      grid-row: 1;
+      
     }
 
     .cards section:nth-child(2) img {
