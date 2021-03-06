@@ -231,7 +231,7 @@ footer {
     color: seashell;
   }
 
-  /* Week 7 Gallery Page 
+  /* Week 7 Gallery Page */
 
   img[data-src] {
     filter: blur(0.2em);
@@ -270,7 +270,7 @@ img {
     width: 98%;
   }
 
-    /* Week 8 Thanks Page 
+    /* Week 8 Thanks Page */
 
   .thanksMain {
     background-color: white;
@@ -285,7 +285,7 @@ img {
   color: #7a9970;
 }
 
-  /* Week 8 Storm Center Page 
+  /* Week 8 Storm Center Page */
 
 form {
   font-size: 111%;
@@ -335,11 +335,6 @@ form label.userInfo input, .stormInfo input, select {
 
   /* Week 9 Home Page */
 
-main {
-  margin: auto;
-  padding: 1px;
-}
-
 .homeWelcome, .homeAdditional {
  text-align: center;
 }
@@ -358,7 +353,7 @@ main {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 1px; 
+  grid-gap: 15px; 
   color: #000000;
   font-size: 1em;
 }
@@ -367,13 +362,13 @@ main {
   margin: auto;
   border: 5px solid #11212D;
   background-color: seashell;
-  padding: 1em;
+  padding: 10px;
   }
 
 
 .cards section img {
   border-radius: 5px;
-  width: 80%;
+  width: 95%;
   height: auto;
-  padding: 1px;
+  padding: 10px;
 }
