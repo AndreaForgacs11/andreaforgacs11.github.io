@@ -330,4 +330,45 @@ form label.userInfo input, .stormInfo input, select {
 .wireframe header {
   font-size: 20pt;
   margin-top: 5px;
+  margin-bottom: -75px;
+}
+
+  /* Week 9 Home Page */
+
+.homeWelcome, .homeAdditional {
+ text-align: center;
+}
+
+.homeWelcome {
+  font-size: 1.75em;
+}
+
+.homeAdditional {
+  font-size: 1.25em;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.cards {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px; 
+  color: #000000;
+  font-size: 1em;
+}
+
+.cards section {
+  margin: auto;
+  border: 2px solid #11212D;
+  background-color: #8ea586;
+  padding: 1em;
+  }
+
+
+.cards section img {
+  border-radius: 5px;
+  width: 80%;
+  height: auto;
+  padding: 10px;
 }

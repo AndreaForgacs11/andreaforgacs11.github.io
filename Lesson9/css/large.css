@@ -24,5 +24,21 @@
     box-shadow: 0 0 25px #11212D;
 }
 
-  
+
+/* Week 9 Home Page */ 
+
+.cards {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cards section {
+  display: block;
+  width: 250px;
+  padding: 1em;
+  margin: 1em;
+}
+
+.cards section img {
+  width: 90%;
+}
 }  

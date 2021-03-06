@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Andrea Forgacs">
+        <meta name="description" content="LCW Site Project W9">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500&family=DM+Mono:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <title>Lowcountry Weather</title>
+      </head>
+
+
+  <body>
+    <div id="park-pancakes" style="display: block;"></div>
+    
+    
+    <header>
+      <img class="logo-box" src="./Images/sitelogo.png?raw=true" alt="LCW Logo">
+      <section class="title">
+      <h1>Lowcountry Weather</h1>
+      <div class="lcw-motto">Beneath the Stratosphere</div>
+    </section>
+    </header>
+
+
+    <nav>
+      <ul class="nav-bar">
+        <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+        <li><a class="active" href="./index.html">Home</a></li>
+        <li><a class="#" href="/Lesson6/preston-6.html">Preston</a></li>
+        <li><a href="#">Soda Springs Haven</a></li>
+        <li><a href="#">Fish Haven</a></li>
+        <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
+        <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
+      </ul>
+    </nav>
+    
+    
+    <main>
+        <div class="homeMain">
+           <h2 class="homeWelcome">Welcome to Lowcountry Weather</h2>
+            <h3 class="homeAdditional">Where you can find all your weather information needs</h3>
+        </div>
+        <div class="cards"></div>
+    </main>
+
+
+    <footer>
+     <div>
+       © 2021 | Andrea Forgacs | <a class="AFindex" href="/index.html">Home Portal </a>| South Carolina | 
+       <a href="https://www.byui.edu/online"> BYU-I Online Learning</a>
+      </div>
+      <br>
+      <span id="date"></span>
+    </footer>
+
+    <script src="./js/currentDate.js"></script>
+    <script src="./js/menu.js"></script>  
+    <script src="js/windchill.js"></script>
+    <script src="js/jsonFetch.js"></script>
+  </body>
+
+  
+  </html>  
