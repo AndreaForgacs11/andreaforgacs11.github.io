@@ -359,6 +359,7 @@ form label.userInfo input, .stormInfo input, select {
 }
 
 .cards section {
+  display: block;
   margin: auto;
   border: 5px solid #11212D;
   background-color: seashell;
