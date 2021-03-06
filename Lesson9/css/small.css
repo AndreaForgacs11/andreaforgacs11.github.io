@@ -350,10 +350,10 @@ form label.userInfo input, .stormInfo input, select {
 }
 
 .cards {
-  text-align: center;
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 15px; 
+  text-align: center;
   color: #000000;
   font-size: 1em;
 }
